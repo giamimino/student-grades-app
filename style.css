@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+:root {
+    /* Background */
+    --clr-bg-Biology: #ff7244;
+    --clr-bg-Geography: #f29f05;
+    --clr-bg-History: #f28705;
+    --clr-bg-Math: #9ccc66;
+    --clr-bg-second-foreign-language: #66bb6a;
+    --clr-bg-Music: #26a59a;
+    --clr-bg-First-foreign-language: #5dc0fb;
+    --clr-bg-Civic-education: #2e3094;
+    --clr-bg-art: #004c3f;
+    --clr-bg-physics: #e63e23;
+    --clr-bg-english: #398e3d;
+    --clr-bg-chemistry: #607d8b;
+    /* Main Background */
+    --clr-bg-main: #dfe2df;
+    /* Color */
+    --clr-text: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-bg-main);
+    height: 100vh;
+    scroll-behavior: smooth;
+    user-select: none;
+    font-family: "Poppins", sans-serif;
+    transition: all .3s ease-in-out;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.wrapper:nth-child(1) {
+    background-color: var(--clr-bg-Biology);
+}
+
+.wrapper:nth-child(2) {
+    background-color: var(--clr-bg-Geography);
+}
+
+.wrapper:nth-child(3) {
+    background-color: var(--clr-bg-History);
+}
+
+.wrapper:nth-child(4) {
+    background-color: var(--clr-bg-Math);
+}
+
+.wrapper:nth-child(5) {
+    background-color: var(--clr-bg-second-foreign-language);
+}
+
+.wrapper:nth-child(6) {
+    background-color: var(--clr-bg-Music);
+}
+
+.wrapper:nth-child(7) {
+    background-color: var(--clr-bg-First-foreign-language);
+}
+
+.wrapper:nth-child(8) {
+    background-color: var(--clr-bg-Civic-education);
+}
+
+.wrapper:nth-child(9) {
+    background-color: var(--clr-bg-art);
+}
+
+.wrapper:nth-child(10) {
+    background-color: var(--clr-bg-physics);
+}
+
+.wrapper:nth-child(11) {
+    background-color: var(--clr-bg-english);
+}
+
+.wrapper:nth-child(12) {
+    background-color: var(--clr-bg-chemistry);
+}
+
+.wrapper {
+    padding: 24px;
+    background-color: var(--clr-bg-Biology);
+    border-radius: 20px;
+    color: var(--clr-text);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    font-weight: 800;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-text);
+    background: #ffffff9a;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.wrapper h1 {
+    font-size: 115%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.stats {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.AnnualAssessment_wrapper {
+    width: calc(50% - 19%);
+}
+
+.Attendance, .assessment {
+    padding: 4px 8px;
+    border: 2px solid #ffffff9a;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    height: 100%;
+    font-size: 100%;
+    border-radius: 8px;
+}
+
+.AnnualAssessment_wrapper p, .Attendance_wrapper p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.AnnualAssessment_wrapper, .Attendance_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Teacher {
+    border: 2px solid #ffffff9a;
+    padding: 16px;
+    font-weight: 500;
+    border-radius: 14px;
+    opacity: 0.9;
+}
+
+.Teacher p {
+    text-align: left;
+}
