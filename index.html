@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Grade app</title>
+    <title>Student Grade Calculator</title>
     <!-- Style -->
      <link rel="stylesheet" href="./style.css">
      <!-- JavaScript -->
@@ -12,245 +12,49 @@
       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="container">
-        <div class="wrapper">
-            <h1 id="subject">Biology</h1>
-            <button id="toggle"><i class='bx bx-chevron-right'></i></button>
-            <div class="Teacher">
-                <p>Teacher:</p>
-                <p> Gia Miminoshvili</p>
-            </div>
-            <div class="stats">
-                <div class="AnnualAssessment_wrapper">
-                    <p>Annual assessment</p>
-                    <div class="assessment">0</div>
-                </div>
-                <div class="Attendance_wrapper">
-                    <P>Attendance</P>
-                    <div class="Attendance">100%</div>
-                </div>
-            </div>
+    <div class="wrapper_signs">
+        <div class="signs_p_outline">
+            <p class="sign_title">1</p>
+            <p class="sign_title">2</p>
+            <p class="sign_title">3</p>
+            <p class="sign_title">4</p>
+            <p class="sign_title">5</p>
+            <p class="sign_title">6</p>
+            <p class="sign_title">7</p>
+            <p class="sign_title">8</p>
+            <p class="sign_title">9</p>
+            <p class="sign_title">10</p>
         </div>
-        <div class="wrapper">
-            <h1 id="subject">Geography</h1>
-            <button id="toggle"><i class='bx bx-chevron-right'></i></button>
-            <div class="Teacher">
-                <p>Teacher:</p>
-                <p> Gia Miminoshvili</p>
-            </div>
-            <div class="stats">
-                <div class="AnnualAssessment_wrapper">
-                    <p>Annual assessment</p>
-                    <div class="assessment">0</div>
-                </div>
-                <div class="Attendance_wrapper">
-                    <P>Attendance</P>
-                    <div class="Attendance">100%</div>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <h1 id="subject">History</h1>
-            <button id="toggle"><i class='bx bx-chevron-right'></i></button>
-            <div class="Teacher">
-                <p>Teacher:</p>
-                <p> Gia Miminoshvili</p>
-            </div>
-            <div class="stats">
-                <div class="AnnualAssessment_wrapper">
-                    <p>Annual assessment</p>
-                    <div class="assessment">0</div>
-                </div>
-                <div class="Attendance_wrapper">
-                    <P>Attendance</P>
-                    <div class="Attendance">100%</div>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <h1 id="subject">Math</h1>
-            <button id="toggle"><i class='bx bx-chevron-right'></i></button>
-            <div class="Teacher">
-                <p>Teacher:</p>
-                <p> Gia Miminoshvili</p>
-            </div>
-            <div class="stats">
-                <div class="AnnualAssessment_wrapper">
-                    <p>Annual assessment</p>
-                    <div class="assessment">0</div>
-                </div>
-                <div class="Attendance_wrapper">
-                    <P>Attendance</P>
-                    <div class="Attendance">100%</div>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <h1 id="subject">second Foreign language</h1>
-            <button id="toggle"><i class='bx bx-chevron-right'></i></button>
-            <div class="Teacher">
-                <p>Teacher:</p>
-                <p> Gia Miminoshvili</p>
-            </div>
-            <div class="stats">
-                <div class="AnnualAssessment_wrapper">
-                    <p>Annual assessment</p>
-                    <div class="assessment">0</div>
-                </div>
-                <div class="Attendance_wrapper">
-                    <P>Attendance</P>
-                    <div class="Attendance">100%</div>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <h1 id="subject">Music</h1>
-            <button id="toggle"><i class='bx bx-chevron-right'></i></button>
-            <div class="Teacher">
-                <p>Teacher:</p>
-                <p> Gia Miminoshvili</p>
-            </div>
-            <div class="stats">
-                <div class="AnnualAssessment_wrapper">
-                    <p>Annual assessment</p>
-                    <div class="assessment">0</div>
-                </div>
-                <div class="Attendance_wrapper">
-                    <P>Attendance</P>
-                    <div class="Attendance">100%</div>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <h1 id="subject">First foreign language</h1>
-            <button id="toggle"><i class='bx bx-chevron-right'></i></button>
-            <div class="Teacher">
-                <p>Teacher:</p>
-                <p> Gia Miminoshvili</p>
-            </div>
-            <div class="stats">
-                <div class="AnnualAssessment_wrapper">
-                    <p>Annual assessment</p>
-                    <div class="assessment">0</div>
-                </div>
-                <div class="Attendance_wrapper">
-                    <P>Attendance</P>
-                    <div class="Attendance">100%</div>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <h1 id="subject">Civic education</h1>
-            <button id="toggle"><i class='bx bx-chevron-right'></i></button>
-            <div class="Teacher">
-                <p>Teacher:</p>
-                <p> Gia Miminoshvili</p>
-            </div>
-            <div class="stats">
-                <div class="AnnualAssessment_wrapper">
-                    <p>Annual assessment</p>
-                    <div class="assessment">0</div>
-                </div>
-                <div class="Attendance_wrapper">
-                    <P>Attendance</P>
-                    <div class="Attendance">100%</div>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <h1 id="subject">art</h1>
-            <button id="toggle"><i class='bx bx-chevron-right'></i></button>
-            <div class="Teacher">
-                <p>Teacher:</p>
-                <p> Gia Miminoshvili</p>
-            </div>
-            <div class="stats">
-                <div class="AnnualAssessment_wrapper">
-                    <p>Annual assessment</p>
-                    <div class="assessment">0</div>
-                </div>
-                <div class="Attendance_wrapper">
-                    <P>Attendance</P>
-                    <div class="Attendance">100%</div>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <h1 id="subject">physics</h1>
-            <button id="toggle"><i class='bx bx-chevron-right'></i></button>
-            <div class="Teacher">
-                <p>Teacher:</p>
-                <p> Gia Miminoshvili</p>
-            </div>
-            <div class="stats">
-                <div class="AnnualAssessment_wrapper">
-                    <p>Annual assessment</p>
-                    <div class="assessment">0</div>
-                </div>
-                <div class="Attendance_wrapper">
-                    <P>Attendance</P>
-                    <div class="Attendance">100%</div>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <h1 id="subject">english</h1>
-            <button id="toggle"><i class='bx bx-chevron-right'></i></button>
-            <div class="Teacher">
-                <p>Teacher:</p>
-                <p> Gia Miminoshvili</p>
-            </div>
-            <div class="stats">
-                <div class="AnnualAssessment_wrapper">
-                    <p>Annual assessment</p>
-                    <div class="assessment">0</div>
-                </div>
-                <div class="Attendance_wrapper">
-                    <P>Attendance</P>
-                    <div class="Attendance">100%</div>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <h1 id="subject">chemistry</h1>
-            <button id="toggle"><i class='bx bx-chevron-right'></i></button>
-            <div class="Teacher">
-                <p>Teacher:</p>
-                <p> Gia Miminoshvili</p>
-            </div>
-            <div class="stats">
-                <div class="AnnualAssessment_wrapper">
-                    <p>Annual assessment</p>
-                    <div class="assessment">0</div>
-                </div>
-                <div class="Attendance_wrapper">
-                    <P>Attendance</P>
-                    <div class="Attendance">100%</div>
-                </div>
-            </div>
+        <div class="signs_div_fill">
+            <div class="sign_quantity" id="quantity">0</div>
+            <div class="sign_quantity" id="quantity">0</div>
+            <div class="sign_quantity" id="quantity">0</div>
+            <div class="sign_quantity" id="quantity">0</div>
+            <div class="sign_quantity" id="quantity">0</div>
+            <div class="sign_quantity" id="quantity">0</div>
+            <div class="sign_quantity" id="quantity">0</div>
+            <div class="sign_quantity" id="quantity">0</div>
+            <div class="sign_quantity" id="quantity">0</div>
+            <div class="sign_quantity" id="quantity">0</div>
         </div>
     </div>
 
-    <div class="grade_container" id="grade_container">
-            <h1 id="title_subject">Subject</h1>
-            <div class="garde">
-            <div class="chart-container">
-                <h2>Signs</h2>
-                <div class="bar-chart" id="barChart"></div>
-            </div>
-            <div class="grade_wrapper">
-                <button class="sign" id="sign">2</button>
-                <button class="sign" id="sign">3</button>
-                <button class="sign" id="sign">4</button>
-                <button class="sign" id="sign">5</button>
-                <button class="sign" id="sign">6</button>
-                <button class="sign" id="sign">7</button>
-                <button class="sign" id="sign">8</button>
-                <button class="sign" id="sign">9</button>
-                <button class="sign" id="sign">10</button>
-            </div>
-            </div>
+    <h1>Student Grade Calculator</h1>
+    <div class="contaner">
+        <div class="result">0</div>
+        <button class="submit">submit</button>
+        <div class="signs">
+            <button class="sign" id="sign">1</button>
+            <button class="sign" id="sign">2</button>
+            <button class="sign" id="sign">3</button>
+            <button class="sign" id="sign">4</button>
+            <button class="sign" id="sign">5</button>
+            <button class="sign" id="sign">6</button>
+            <button class="sign" id="sign">7</button>
+            <button class="sign" id="sign">8</button>
+            <button class="sign" id="sign">9</button>
+            <button class="sign" id="sign">10</button>
+        </div>
     </div>
-    
 </body>
 </html>
